@@ -8818,6 +8818,10 @@ a.text-dark:focus, a.text-dark:hover {
 
 /* Style the back side */
 .flip-card-back {
+    top: 0;
+    left: 0;
+    height: 100%;
+    position: absolute;
     background-size: cover;
     background-position: center;
     background-color: dodgerblue;
