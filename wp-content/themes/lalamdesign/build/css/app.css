@@ -3784,7 +3784,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     }
 
     .navbar-expand-md .navbar-toggler {
-    . container-navbar display: none
+        . container-navbar display: none
     }
 }
 
@@ -8744,7 +8744,9 @@ a.text-dark:focus, a.text-dark:hover {
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
-. flip-card margin-bottom: 30 px;
+    . flip-card margin-bottom:
+
+    30px;
     background-color: transparent;
     width: 100%;
     border: 1px solid #f1f1f1;
@@ -9206,5 +9208,11 @@ footer .input-group-addon {
     }
 }
 
+.portfolio-nav-bar .btn {
+    transition: 0.5s;
+}
+
+.portfolio-nav-bar .btn:hover {
+    font-weight: bold;
 }
 

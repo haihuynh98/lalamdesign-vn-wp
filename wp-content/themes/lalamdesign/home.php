@@ -45,7 +45,7 @@ get_header();
                         không gian kinh doanh,...</h4>
                 </div>
                 <div id="menu_scroll">
-                    <a class="btn button-contact  my-1 py-3 px-4 text-uppercase  text-center" href="#contact">Liên hệ
+                    <a class="btn button-contact  my-1 py-3 px-4 text-uppercase  text-center" href="/lien-he">Liên hệ
                         ngay</a>
                 </div>
             </div>
@@ -64,7 +64,7 @@ get_header();
             <!-- end item -->
         </div>
         <div class="container text-center my-1 py-3">
-            <a class="btn button-contact   my-1 py-3 px-4 text-uppercase  text-center" href="/project">Xem tất cả dự
+            <a class="btn button-contact   my-1 py-3 px-4 text-uppercase  text-center" href="<?php echo get_post_type_archive_link('tiger_portfolio')?>">Xem tất cả dự
                 án</a>
         </div>
     </div>
